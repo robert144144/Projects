@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Scorer.cs" />
      <Compile Include="Assets\Scripts\Scorer2.cs" />
      <Compile Include="Assets\Scripts\ShotDelete.cs" />
+     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
