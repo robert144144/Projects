@@ -12,7 +12,9 @@ public class RightAnimation : MonoBehaviour {
 
 	void Update (){
 		if (Input.GetKey (KeyCode.RightArrow)) {
-			anim.Play ("Right");
+			anim.SetBool ("right", true);
+		} else {
+			anim.SetBool ("right", false);
 		}
 	}
 }
