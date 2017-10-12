@@ -1,14 +1,14 @@
-﻿using System.Collections;
+﻿/*
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
 public class GoalScore : MonoBehaviour {
 
-
 	private int P1score;
-	public Text countText;
-	public Text winText;
+	[SerializeField] private Text countText;
+	[SerializeField] private Text winText;
 
 	void OnTriggerEnter2D(Collider2D other) 
 	{
@@ -28,3 +28,4 @@ public class GoalScore : MonoBehaviour {
 		}
 	}
 }
+*/

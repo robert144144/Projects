@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Goal 1
+  - Goal 2
   layers:
   - Default
   - TransparentFX
@@ -46,4 +48,7 @@ TagManager:
     locked: 0
   - name: Playfield
     uniqueID: 1959271721
+    locked: 0
+  - name: UI
+    uniqueID: 3592470359
     locked: 0

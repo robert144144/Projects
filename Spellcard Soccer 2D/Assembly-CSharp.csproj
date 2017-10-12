@@ -63,9 +63,6 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerController2.cs" />
      <Compile Include="Assets\Scripts\RightAnimation.cs" />
-     <Compile Include="Assets\Scripts\ScoreInformation.cs" />
-     <Compile Include="Assets\Scripts\Scorer.cs" />
-     <Compile Include="Assets\Scripts\Scorer2.cs" />
      <Compile Include="Assets\Scripts\ShotDelete.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">

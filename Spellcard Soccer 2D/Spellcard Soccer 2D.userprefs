@@ -1,15 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RightAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BallMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\ShotDelete.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\BallMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ColliderIgnorer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\FocusSpeed.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameWalls.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GoalScore.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LeftAnimation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RightAnimation.cs" Line="17" Column="34" />
+      <File FileName="Assets\Scripts\BallMovement.cs" Line="45" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
