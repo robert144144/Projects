@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour {
 
-	public float speed;
+	[SerializeField] private float speed;
+	[SerializeField] private float timer;
+
+	void Update(){
+		timer += 1.0f * Time.deltaTime;
+		if (timer >= 5) {
+			Destroy(gameObject);
+		}
+	}
 
 	void Start ()
 	{

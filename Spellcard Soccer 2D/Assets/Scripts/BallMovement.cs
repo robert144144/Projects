@@ -9,15 +9,22 @@ public class BallMovement : MonoBehaviour {
 	[SerializeField] private Text countText2;
 	[SerializeField] private Text winText1;
 	[SerializeField] private Text winText2;
-	[SerializeField] private int win; 
 	[SerializeField] private GameObject Reset; 
 	[SerializeField] private GameObject ballTP;
+	[SerializeField] private int win;
 	[SerializeField] private Transform tpLoc;
 	[SerializeField] private Transform tpLoc2;
 	[SerializeField] private Transform tpLoc3;
+	[SerializeField] private Transform tpLoc4;
+	[SerializeField] private Transform tpLoc5;
 	[SerializeField] private GameObject wall1;
 	[SerializeField] private GameObject wall2;
-
+	[SerializeField] private GameObject player1;
+	[SerializeField] private GameObject player2;
+	[SerializeField] private float mass;
+	[SerializeField] private float mass2;
+	[SerializeField] private Rigidbody2D rb;
+		
 	//functions capital, variables lowercase.
 	private int P1score;
 	private int P2score;
@@ -99,6 +106,9 @@ public class BallMovement : MonoBehaviour {
 	//returns ball to start
 	void Setball ()
 	{	
+		rb = GetComponent<Rigidbody2D> ();
+		rb.mass = mass;
+
 			float rand2 = Random.Range (0, 3);
 			if (rand2 == 0) {
 				ballTP.transform.position = tpLoc.transform.position;
@@ -112,11 +122,19 @@ public class BallMovement : MonoBehaviour {
 		wall1.SetActive (true);
 		wall2.SetActive (true);
 		Invoke("MoveBall", 3);
+
+	//moves the players back to their starting points
+		player1.transform.position = tpLoc4.transform.position;
+
+		player2.transform.position = tpLoc5.transform.position;
 	}
 
 	//new force to ball
 	void MoveBall ()
 	{
+		rb = GetComponent<Rigidbody2D> ();
+		rb.mass = mass2;
+
 		wall1.SetActive (false);
 		wall2.SetActive (false);
 		float rand = Random.Range (0, 4);

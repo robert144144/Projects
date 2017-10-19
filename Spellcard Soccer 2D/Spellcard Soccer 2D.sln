@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcard Soccer 2D", "Assembly-CSharp.csproj", "{69F28F08-6CEC-91EC-4E41-72C44E97A1AD}"
 EndProject
+Project("{29B49B7E-DCA8-781F-ED6C-42B55A4DA767}") = "Spellcard Soccer 2D", "Assembly-UnityScript.unityproj", "{2ED461ED-2A17-908A-FA81-CB9F66AAA4DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{69F28F08-6CEC-91EC-4E41-72C44E97A1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F28F08-6CEC-91EC-4E41-72C44E97A1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F28F08-6CEC-91EC-4E41-72C44E97A1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED461ED-2A17-908A-FA81-CB9F66AAA4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED461ED-2A17-908A-FA81-CB9F66AAA4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED461ED-2A17-908A-FA81-CB9F66AAA4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED461ED-2A17-908A-FA81-CB9F66AAA4DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

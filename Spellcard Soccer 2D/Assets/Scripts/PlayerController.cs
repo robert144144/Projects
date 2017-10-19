@@ -16,7 +16,7 @@ public float speed;
 
 	void Update ()
 	{
-		if (Input.GetKey (KeyCode.M) && Time.time > nextFire)
+		if (Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
@@ -27,9 +27,10 @@ public float speed;
 
 	void FixedUpdate ()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
+		float moveHorizontal = Input.GetAxis ("Horizontal1");
+		float moveVertical = Input.GetAxis ("Vertical1");
 
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, 0.0f);
+		Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0.0f);
 		GetComponent<Rigidbody2D>().velocity = movement*speed;
 	}
 }
