@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts for Test Lvl\NaturalMovementPlatforming.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NewBehaviourScript.js">
     <Files>
       <File FileName="Assets\Scripts for Test Lvl\NaturalMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts for Test Lvl\NaturalMovementPlatforming.cs" Line="47" Column="31" />
+      <File FileName="Assets\Scripts for Test Lvl\NaturalMovementPlatforming.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts for Test Lvl\AttackStick.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerController2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RightAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NewBehaviourScript.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

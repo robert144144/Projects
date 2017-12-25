@@ -8,6 +8,7 @@ public class AttackStick : MonoBehaviour {
 	private GameObject myWeaponPrefab; 
 	public Animator anim;
 	private float _Timer;
+	[SerializeField]
 	private float _Cooldown;
 
 	// Use this for initialization
@@ -18,17 +19,10 @@ public class AttackStick : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if (_Timer > 0.0f)
-		{
-			_Timer = Mathf.Max(0.0f, _Timer - Time.deltaTime);
-		}
-
-		if (Input.GetKey (KeyCode.Z) && _Timer <= 0.0f) {
+		if (Input.GetKey (KeyCode.Z)) {
 			anim.SetBool ("Attack", true);
-			_Timer = _Cooldown;
 		} else {
 			anim.SetBool ("Attack", false);
-			_Timer = _Cooldown;
 		}
 	}
 }
