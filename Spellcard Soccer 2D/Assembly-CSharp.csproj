@@ -90,8 +90,13 @@
      <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\Scripts for Test Lvl\AttackStick.cs" />
+     <Compile Include="Assets\Scripts for Test Lvl\CamFollowPlayer.cs" />
+     <Compile Include="Assets\Scripts for Test Lvl\CamRotateAround.cs" />
+     <Compile Include="Assets\Scripts for Test Lvl\KickScript.cs" />
+     <Compile Include="Assets\Scripts for Test Lvl\MovementTest.cs" />
      <Compile Include="Assets\Scripts for Test Lvl\NaturalMovement.cs" />
      <Compile Include="Assets\Scripts for Test Lvl\NaturalMovementPlatforming.cs" />
+     <Compile Include="Assets\Scripts for Test Lvl\Spin.cs" />
      <Compile Include="Assets\Scripts\BallMovement.cs" />
      <Compile Include="Assets\Scripts\ColliderIgnorer.cs" />
      <Compile Include="Assets\Scripts\CollisionDetection.cs" />
